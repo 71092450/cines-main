@@ -195,6 +195,7 @@ body{
     height: 60px;
     margin-left:45px;
     /*line-height: 100px;*/
+
 }
 #iconos-sociales .overly{
     color: #37bcf9;
@@ -302,4 +303,5 @@ body{
     -o-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2)
-}
+   
+
