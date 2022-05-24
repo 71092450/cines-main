@@ -113,6 +113,39 @@ body{
 
 /*FIN DE CABECERA*/
 
+
+.card{
+
+    width: 300px;
+    padding: 0 0 5px;
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 5px 6px 11px 0px grey;
+    }
+    
+    .imagen{
+        width: 300px;
+        height: 100px;
+        border-radius: 5px 5px 0 0;
+        object-fit: cover;
+    }
+    
+    .contenedor{
+        width: 100%;
+        margin: 0px auto;
+        overflow: hidden;
+    }
+    
+    .title{
+        text-align: center;
+        color: red;
+      
+    }
+    
+    .texto{
+       color: white;
+        text-align: center;
+    }
 /*INICIO DE CONTENIDO*/
 #contenido{
     width: 98%;
@@ -338,6 +371,6 @@ body{
      transform: scale(1);
  }
  from{
-     transform: scale(1.02);
+     transform: scale(1.01);
  }
 }
