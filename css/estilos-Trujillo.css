@@ -362,15 +362,32 @@ body{
         width: 100%;
         margin: 0px auto;
         overflow: hidden;
+        color: white;
+      
     }
+     
+   
     
     .title{
         text-align: center;
         color: red;
       
     }
+
+    .contenedor_p{
+       margin-bottom: 40px;
+        color: #a2d9f3;
+    }
     
-    .texto{
+    .izquierda{
        color: white;
         text-align: center;
+        height: 200px;
+        width: 300px;
+        overflow: hidden;
+        border-radius: 5px;
+        margin-bottom: 20px;
+
+
     }
+        

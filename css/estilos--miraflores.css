@@ -1,73 +1,3 @@
-
-
-
-.slider{
-width: 100%;
-margin: 0;
-overflow:hidden ;
-}
-
- .slider ul{
-    display: flex;
-    padding: 0;
-    width: 300%;
-    
-   
-    
-    
-    
-    
-    
-
-    animation: cambio 25s infinite alternate;
-    animation-timing-function: linear;
-   
- }
- .slider li{
-     width: 100%;
-     list-style: none;
-     margin-bottom: 10px;
-     
-     
- }
- 
- .slider img{
-     width: 100%;
-     height: 200px;
-     object-fit: cover;
-     cursor: pointer; 
-     border-radius: 10px; 
-     box-shadow: 5px 8px 12px black;  
-    
-     
-    
-    
-   
-    
-     
-   
- }
-
- @keyframes cambio {
-     0% {margin: left 0%;;}
-     20%{margin-left: -0%;}
-
-     25%{margin-left: -100%;}
-     45%{margin-left: -100%;}
-
-     50%{margin-left: -200%;}
-     70%{margin-left: -200%;}
-
-     
-     75%{margin-left: -200%;}
-     100%{margin-left: -200%;}
-
-
-    
- }
-
-
-
 img.centered{display:block;margin:0 auto 24px}
 
 img.post-centro{
@@ -182,6 +112,41 @@ body{
 
 /*FIN DE CABECERA*/
 
+
+.card{
+
+    width: 300px;
+    padding: 0 0 5px;
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 5px 6px 11px 0px grey;
+    }
+    
+    .imagen{
+        width: 300px;
+        height: 100px;
+        border-radius: 5px 5px 0 0;
+        object-fit: cover;
+    }
+    
+    .contenedor{
+        width: 100%;
+        margin: 0px auto;
+        overflow: hidden;
+    }
+    
+    .title{
+        text-align: center;
+        color: red;
+        margin: 10px;
+        
+      
+    }
+    
+    .texto{
+       color: white;
+        text-align: center;
+    }
 /*INICIO DE CONTENIDO*/
 #contenido{
     width: 98%;
@@ -373,39 +338,39 @@ body{
     -ms-transform: scale(1.2);
     transform: scale(1.2)
    
-
-
-
 }
-.card{
 
-    width: 300px;
-    padding: 0 0 5px;
-    margin: 5px auto;
-    border-radius: 5px;
-    box-shadow: 5px 6px 11px 0px grey;
-    }
-    
-    .imagen{
-        width: 300px;
-        border-radius: 5px 5px 0 0;
-        object-fit: cover;
-    }
-    
-    .contenedor{
-        width: 100%;
-        margin: 0px auto;
-        overflow: hidden;
-    }
-    
-    .title{
-        text-align: center;
-        color: red;
-      
-    }
-    
-    .texto{
-       
-        text-align: center;
-    }
-    
+body{
+    background-color: #222;
+ }
+ h2{
+     color: aqua;
+     text-align: center;
+
+ }
+ .img23{
+ 
+    display: flex;
+    width:50% ;
+    margin: auto;
+    border-radius: 20px;
+    animation: escalar 1.6s infinite alternate;
+    box-shadow: 5px 8px 12px black ;
+    cursor: pointer;
+ }
+
+
+ .imagen23{
+ 
+ transform: translate(-50%, -50%);
+ }
+ @keyframes escalar{
+ to{
+     transform: scale(1);
+ }
+ from{
+     transform: scale(1.01);
+ }
+}
+
+
