@@ -28,11 +28,4 @@ sr.reveal('.izquierda', {
    }
 });
 
-sr.reveal('.contenedor-galeria', {
-    duration:1000,
-    rotate:{
-       x:1,
-       y:100,
-     
-   }
-});
+
